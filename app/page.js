@@ -1,7 +1,7 @@
 import PostCard from "@/components/PostCard";
 import getPostMetadata from "@/utils/getPostMetadata";
 
-export const dynamic = 'force-dynamic'
+
 
 export default function Home() {
   const postMetadata = getPostMetadata('recipes')
