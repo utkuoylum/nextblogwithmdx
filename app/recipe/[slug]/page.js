@@ -5,7 +5,7 @@ import fs from "fs"
 import matter from "gray-matter"
 
 function getPostContent(slug) {
-    const folder = 'recipes/'
+    const folder = './recipes/'
     const file = folder + `${slug}.md`
     const content = fs.readFileSync(file, 'utf8')
 
