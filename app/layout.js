@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
 
   let header = (
     <header>
-dsfsdfsdf
+<Link href='/'><h1>The Bubbly Bakery</h1></Link>
     </header>
   )
 
